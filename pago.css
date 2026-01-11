@@ -1,0 +1,58 @@
+.payment-card {
+    background: linear-gradient(180deg, #0b1220, #020617);
+    border-radius: 22px;
+    padding: 40px;
+    width: 380px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.06);
+    box-shadow:
+        0 0 30px rgba(56,189,248,0.15),
+        0 0 90px rgba(59,130,246,0.08);
+}
+
+.payment-card h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #94a3b8;
+    margin-bottom: 30px;
+}
+
+/* QR */
+.qr-box {
+    background: white;
+    padding: 18px;
+    border-radius: 16px;
+    display: inline-block;
+    margin-bottom: 25px;
+    animation: qrGlow 2.5s infinite alternate;
+}
+
+.qr-box img {
+    width: 210px;
+}
+
+@keyframes qrGlow {
+    from {
+        box-shadow: 0 0 20px #22d3ee;
+    }
+    to {
+        box-shadow: 0 0 40px #3b82f6;
+    }
+}
+
+/* MONTO */
+.amount {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* ESTADO */
+.estado {
+    font-size: 14px;
+    color: #facc15;
+    letter-spacing: 1px;
+}

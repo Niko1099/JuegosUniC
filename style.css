@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: radial-gradient(circle at top left, #020617, #020617, #000);
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Glow general futurista */
+.glow {
+    box-shadow:
+        0 0 25px rgba(56,189,248,0.15),
+        0 0 60px rgba(59,130,246,0.08);
+}
